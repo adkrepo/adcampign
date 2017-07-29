@@ -410,3 +410,356 @@ javax.ws.rs.NotAllowedException: No resource method found for POST, return 405 w
 2016-08-10 08:58:03 DEBUG AdCampignService:62 - Ad Status:Succesfully adcampign created
 2016-08-10 08:58:03 DEBUG AdCampignService:63 - Total number of Ads exists:1
 2016-08-10 08:58:07 DEBUG SynchronousDispatcher:60 - PathInfo: /ad
+2017-07-29 16:42:51 DEBUG AdCampignService:62 - Ad Status:Succesfully adcampign created
+2017-07-29 16:42:51 DEBUG AdCampignService:63 - Total number of Ads exists:0
+2017-07-29 16:43:31 DEBUG AdCampignIT:131 - AdContent generated randomly:xctwnicvod
+2017-07-29 16:43:32 DEBUG BasicClientConnectionManager:157 - Get connection for route {}->http://localhost:8080
+2017-07-29 16:43:32 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2017-07-29 16:43:32 DEBUG RequestAddCookies:132 - CookieSpec selected: ignoreCookies
+2017-07-29 16:43:32 DEBUG RequestAuthCache:78 - Auth cache not set in the context
+2017-07-29 16:43:32 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2017-07-29 16:43:32 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2017-07-29 16:43:32 DEBUG DefaultHttpClient:710 - Attempt 1 to execute request
+2017-07-29 16:43:32 DEBUG DefaultClientConnection:269 - Sending request: POST /ad HTTP/1.1
+2017-07-29 16:43:32 DEBUG wire:63 - >> "POST /ad HTTP/1.1[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - >> "Accept: */*[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - >> "Content-Type: application/json; charset=ISO-8859-1[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - >> "Content-Length: 63[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - >> "Host: localhost:8080[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - >> "[\r][\n]"
+2017-07-29 16:43:32 DEBUG headers:273 - >> POST /ad HTTP/1.1
+2017-07-29 16:43:32 DEBUG headers:276 - >> Accept: */*
+2017-07-29 16:43:32 DEBUG headers:276 - >> Content-Type: application/json; charset=ISO-8859-1
+2017-07-29 16:43:32 DEBUG headers:276 - >> Content-Length: 63
+2017-07-29 16:43:32 DEBUG headers:276 - >> Host: localhost:8080
+2017-07-29 16:43:32 DEBUG headers:276 - >> Connection: Keep-Alive
+2017-07-29 16:43:32 DEBUG headers:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+2017-07-29 16:43:32 DEBUG headers:276 - >> Accept-Encoding: gzip,deflate
+2017-07-29 16:43:32 DEBUG wire:77 - >> "{"partner_id":"373","duration":"600","ad_content":"xctwnicvod"}"
+2017-07-29 16:43:32 DEBUG SynchronousDispatcher:60 - PathInfo: /ad
+2017-07-29 16:43:32 DEBUG AdCampignService:62 - Ad Status:Succesfully adcampign created
+2017-07-29 16:43:32 DEBUG AdCampignService:63 - Total number of Ads exists:1
+2017-07-29 16:43:32 DEBUG wire:63 - << "HTTP/1.1 201 Created[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - << "Date: Sat, 29 Jul 2017 20:43:32 GMT[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - << "Content-Type: application/octet-stream[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - << "Content-Length: 29[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - << "Server: Jetty(9.3.0.M2)[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - << "[\r][\n]"
+2017-07-29 16:43:32 DEBUG DefaultClientConnection:254 - Receiving response: HTTP/1.1 201 Created
+2017-07-29 16:43:32 DEBUG headers:257 - << HTTP/1.1 201 Created
+2017-07-29 16:43:32 DEBUG headers:260 - << Date: Sat, 29 Jul 2017 20:43:32 GMT
+2017-07-29 16:43:32 DEBUG headers:260 - << Content-Type: application/octet-stream
+2017-07-29 16:43:32 DEBUG headers:260 - << Content-Length: 29
+2017-07-29 16:43:32 DEBUG headers:260 - << Server: Jetty(9.3.0.M2)
+2017-07-29 16:43:32 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+2017-07-29 16:43:32 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:533 - Parsing response as: application/octet-stream
+2017-07-29 16:43:32 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:536 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2017-07-29 16:43:32 DEBUG BasicClientConnectionManager:157 - Get connection for route {}->http://localhost:8080
+2017-07-29 16:43:32 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2017-07-29 16:43:32 DEBUG RequestAddCookies:132 - CookieSpec selected: ignoreCookies
+2017-07-29 16:43:32 DEBUG RequestAuthCache:78 - Auth cache not set in the context
+2017-07-29 16:43:32 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2017-07-29 16:43:32 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2017-07-29 16:43:32 DEBUG DefaultHttpClient:710 - Attempt 1 to execute request
+2017-07-29 16:43:32 DEBUG DefaultClientConnection:269 - Sending request: GET /ad/373 HTTP/1.1
+2017-07-29 16:43:32 DEBUG wire:63 - >> "GET /ad/373 HTTP/1.1[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - >> "Accept: */*[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - >> "Host: localhost:8080[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - >> "[\r][\n]"
+2017-07-29 16:43:32 DEBUG headers:273 - >> GET /ad/373 HTTP/1.1
+2017-07-29 16:43:32 DEBUG headers:276 - >> Accept: */*
+2017-07-29 16:43:32 DEBUG headers:276 - >> Host: localhost:8080
+2017-07-29 16:43:32 DEBUG headers:276 - >> Connection: Keep-Alive
+2017-07-29 16:43:32 DEBUG headers:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+2017-07-29 16:43:32 DEBUG headers:276 - >> Accept-Encoding: gzip,deflate
+2017-07-29 16:43:32 DEBUG SynchronousDispatcher:60 - PathInfo: /ad/373
+2017-07-29 16:43:32 DEBUG wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - << "Date: Sat, 29 Jul 2017 20:43:32 GMT[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - << "Content-Type: application/json[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - << "Server: Jetty(9.3.0.M2)[\r][\n]"
+2017-07-29 16:43:32 DEBUG wire:63 - << "[\r][\n]"
+2017-07-29 16:43:32 DEBUG DefaultClientConnection:254 - Receiving response: HTTP/1.1 200 OK
+2017-07-29 16:43:32 DEBUG headers:257 - << HTTP/1.1 200 OK
+2017-07-29 16:43:32 DEBUG headers:260 - << Date: Sat, 29 Jul 2017 20:43:32 GMT
+2017-07-29 16:43:32 DEBUG headers:260 - << Content-Type: application/json
+2017-07-29 16:43:32 DEBUG headers:260 - << Transfer-Encoding: chunked
+2017-07-29 16:43:32 DEBUG headers:260 - << Server: Jetty(9.3.0.M2)
+2017-07-29 16:43:32 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+2017-07-29 16:43:32 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:533 - Parsing response as: application/json
+2017-07-29 16:43:32 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:536 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2017-07-29 16:43:32 DEBUG AdCampignIT:131 - AdContent generated randomly:dmhdsfvyrm
+2017-07-29 16:43:32 DEBUG BasicClientConnectionManager:157 - Get connection for route {}->http://localhost:8080
+2017-07-29 16:43:32 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2017-07-29 16:43:32 DEBUG RequestAddCookies:132 - CookieSpec selected: ignoreCookies
+2017-07-29 16:43:32 DEBUG RequestAuthCache:78 - Auth cache not set in the context
+2017-07-29 16:43:32 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2017-07-29 16:43:32 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2017-07-29 16:43:32 DEBUG DefaultHttpClient:710 - Attempt 1 to execute request
+2017-07-29 16:43:33 DEBUG DefaultClientConnection:269 - Sending request: POST /ad HTTP/1.1
+2017-07-29 16:43:33 DEBUG wire:63 - >> "POST /ad HTTP/1.1[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Accept: */*[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Content-Type: application/json; charset=ISO-8859-1[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Content-Length: 64[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Host: localhost:8080[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "[\r][\n]"
+2017-07-29 16:43:33 DEBUG headers:273 - >> POST /ad HTTP/1.1
+2017-07-29 16:43:33 DEBUG headers:276 - >> Accept: */*
+2017-07-29 16:43:33 DEBUG headers:276 - >> Content-Type: application/json; charset=ISO-8859-1
+2017-07-29 16:43:33 DEBUG headers:276 - >> Content-Length: 64
+2017-07-29 16:43:33 DEBUG headers:276 - >> Host: localhost:8080
+2017-07-29 16:43:33 DEBUG headers:276 - >> Connection: Keep-Alive
+2017-07-29 16:43:33 DEBUG headers:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+2017-07-29 16:43:33 DEBUG headers:276 - >> Accept-Encoding: gzip,deflate
+2017-07-29 16:43:33 DEBUG wire:77 - >> "{"partner_id":"243","duration":"6000","ad_content":"dmhdsfvyrm"}"
+2017-07-29 16:43:33 DEBUG SynchronousDispatcher:60 - PathInfo: /ad
+2017-07-29 16:43:33 DEBUG AdCampignService:62 - Ad Status:Succesfully adcampign created
+2017-07-29 16:43:33 DEBUG AdCampignService:63 - Total number of Ads exists:2
+2017-07-29 16:43:33 DEBUG wire:63 - << "HTTP/1.1 201 Created[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Date: Sat, 29 Jul 2017 20:43:33 GMT[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Content-Type: application/octet-stream[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Content-Length: 29[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Server: Jetty(9.3.0.M2)[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "[\r][\n]"
+2017-07-29 16:43:33 DEBUG DefaultClientConnection:254 - Receiving response: HTTP/1.1 201 Created
+2017-07-29 16:43:33 DEBUG headers:257 - << HTTP/1.1 201 Created
+2017-07-29 16:43:33 DEBUG headers:260 - << Date: Sat, 29 Jul 2017 20:43:33 GMT
+2017-07-29 16:43:33 DEBUG headers:260 - << Content-Type: application/octet-stream
+2017-07-29 16:43:33 DEBUG headers:260 - << Content-Length: 29
+2017-07-29 16:43:33 DEBUG headers:260 - << Server: Jetty(9.3.0.M2)
+2017-07-29 16:43:33 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+2017-07-29 16:43:33 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:533 - Parsing response as: application/octet-stream
+2017-07-29 16:43:33 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:536 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2017-07-29 16:43:33 DEBUG wire:77 - << "Succesfully adcampign created"
+2017-07-29 16:43:33 DEBUG BasicClientConnectionManager:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@38b6881e
+2017-07-29 16:43:33 DEBUG BasicClientConnectionManager:219 - Connection can be kept alive indefinitely
+2017-07-29 16:43:33 DEBUG AdCampignIT:95 - Ad Status:Succesfully adcampign created
+2017-07-29 16:43:33 DEBUG AdCampignIT:131 - AdContent generated randomly:qojesnqoyw
+2017-07-29 16:43:33 DEBUG BasicClientConnectionManager:157 - Get connection for route {}->http://localhost:8080
+2017-07-29 16:43:33 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2017-07-29 16:43:33 DEBUG RequestAddCookies:132 - CookieSpec selected: ignoreCookies
+2017-07-29 16:43:33 DEBUG RequestAuthCache:78 - Auth cache not set in the context
+2017-07-29 16:43:33 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2017-07-29 16:43:33 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2017-07-29 16:43:33 DEBUG DefaultHttpClient:710 - Attempt 1 to execute request
+2017-07-29 16:43:33 DEBUG DefaultClientConnection:269 - Sending request: POST /ad HTTP/1.1
+2017-07-29 16:43:33 DEBUG wire:63 - >> "POST /ad HTTP/1.1[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Accept: */*[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Content-Type: application/json; charset=ISO-8859-1[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Content-Length: 62[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Host: localhost:8080[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "[\r][\n]"
+2017-07-29 16:43:33 DEBUG headers:273 - >> POST /ad HTTP/1.1
+2017-07-29 16:43:33 DEBUG headers:276 - >> Accept: */*
+2017-07-29 16:43:33 DEBUG headers:276 - >> Content-Type: application/json; charset=ISO-8859-1
+2017-07-29 16:43:33 DEBUG headers:276 - >> Content-Length: 62
+2017-07-29 16:43:33 DEBUG headers:276 - >> Host: localhost:8080
+2017-07-29 16:43:33 DEBUG headers:276 - >> Connection: Keep-Alive
+2017-07-29 16:43:33 DEBUG headers:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+2017-07-29 16:43:33 DEBUG headers:276 - >> Accept-Encoding: gzip,deflate
+2017-07-29 16:43:33 DEBUG wire:77 - >> "{"partner_id":"243","duration":"60","ad_content":"qojesnqoyw"}"
+2017-07-29 16:43:33 DEBUG SynchronousDispatcher:60 - PathInfo: /ad
+2017-07-29 16:43:33 DEBUG wire:63 - << "HTTP/1.1 406 Not Acceptable[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Date: Sat, 29 Jul 2017 20:43:33 GMT[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Content-Type: application/octet-stream[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Content-Length: 54[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Server: Jetty(9.3.0.M2)[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "[\r][\n]"
+2017-07-29 16:43:33 DEBUG DefaultClientConnection:254 - Receiving response: HTTP/1.1 406 Not Acceptable
+2017-07-29 16:43:33 DEBUG headers:257 - << HTTP/1.1 406 Not Acceptable
+2017-07-29 16:43:33 DEBUG headers:260 - << Date: Sat, 29 Jul 2017 20:43:33 GMT
+2017-07-29 16:43:33 DEBUG headers:260 - << Content-Type: application/octet-stream
+2017-07-29 16:43:33 DEBUG headers:260 - << Content-Length: 54
+2017-07-29 16:43:33 DEBUG headers:260 - << Server: Jetty(9.3.0.M2)
+2017-07-29 16:43:33 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+2017-07-29 16:43:33 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:533 - Parsing response as: application/octet-stream
+2017-07-29 16:43:33 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:536 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2017-07-29 16:43:33 DEBUG wire:77 - << "Only one active campaign can exist for a given partner"
+2017-07-29 16:43:33 DEBUG BasicClientConnectionManager:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@211f026e
+2017-07-29 16:43:33 DEBUG BasicClientConnectionManager:219 - Connection can be kept alive indefinitely
+2017-07-29 16:43:33 DEBUG AdCampignIT:105 - Ad Status:Only one active campaign can exist for a given partner
+2017-07-29 16:43:33 DEBUG AdCampignIT:131 - AdContent generated randomly:nsarrygdyy
+2017-07-29 16:43:33 DEBUG BasicClientConnectionManager:157 - Get connection for route {}->http://localhost:8080
+2017-07-29 16:43:33 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2017-07-29 16:43:33 DEBUG RequestAddCookies:132 - CookieSpec selected: ignoreCookies
+2017-07-29 16:43:33 DEBUG RequestAuthCache:78 - Auth cache not set in the context
+2017-07-29 16:43:33 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2017-07-29 16:43:33 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2017-07-29 16:43:33 DEBUG DefaultHttpClient:710 - Attempt 1 to execute request
+2017-07-29 16:43:33 DEBUG DefaultClientConnection:269 - Sending request: POST /ad HTTP/1.1
+2017-07-29 16:43:33 DEBUG wire:63 - >> "POST /ad HTTP/1.1[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Accept: */*[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Content-Type: application/json; charset=ISO-8859-1[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Content-Length: 63[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Host: localhost:8080[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "[\r][\n]"
+2017-07-29 16:43:33 DEBUG headers:273 - >> POST /ad HTTP/1.1
+2017-07-29 16:43:33 DEBUG headers:276 - >> Accept: */*
+2017-07-29 16:43:33 DEBUG headers:276 - >> Content-Type: application/json; charset=ISO-8859-1
+2017-07-29 16:43:33 DEBUG headers:276 - >> Content-Length: 63
+2017-07-29 16:43:33 DEBUG headers:276 - >> Host: localhost:8080
+2017-07-29 16:43:33 DEBUG headers:276 - >> Connection: Keep-Alive
+2017-07-29 16:43:33 DEBUG headers:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+2017-07-29 16:43:33 DEBUG headers:276 - >> Accept-Encoding: gzip,deflate
+2017-07-29 16:43:33 DEBUG wire:77 - >> "{"partner_id":"265","duration":"100","ad_content":"nsarrygdyy"}"
+2017-07-29 16:43:33 DEBUG SynchronousDispatcher:60 - PathInfo: /ad
+2017-07-29 16:43:33 DEBUG AdCampignService:62 - Ad Status:Succesfully adcampign created
+2017-07-29 16:43:33 DEBUG AdCampignService:63 - Total number of Ads exists:3
+2017-07-29 16:43:33 DEBUG wire:63 - << "HTTP/1.1 201 Created[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Date: Sat, 29 Jul 2017 20:43:33 GMT[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Content-Type: application/octet-stream[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Content-Length: 29[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Server: Jetty(9.3.0.M2)[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "[\r][\n]"
+2017-07-29 16:43:33 DEBUG DefaultClientConnection:254 - Receiving response: HTTP/1.1 201 Created
+2017-07-29 16:43:33 DEBUG headers:257 - << HTTP/1.1 201 Created
+2017-07-29 16:43:33 DEBUG headers:260 - << Date: Sat, 29 Jul 2017 20:43:33 GMT
+2017-07-29 16:43:33 DEBUG headers:260 - << Content-Type: application/octet-stream
+2017-07-29 16:43:33 DEBUG headers:260 - << Content-Length: 29
+2017-07-29 16:43:33 DEBUG headers:260 - << Server: Jetty(9.3.0.M2)
+2017-07-29 16:43:33 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+2017-07-29 16:43:33 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:533 - Parsing response as: application/octet-stream
+2017-07-29 16:43:33 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:536 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2017-07-29 16:43:33 DEBUG wire:77 - << "Succesfully adcampign created"
+2017-07-29 16:43:33 DEBUG BasicClientConnectionManager:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4737f519
+2017-07-29 16:43:33 DEBUG BasicClientConnectionManager:219 - Connection can be kept alive indefinitely
+2017-07-29 16:43:33 DEBUG AdCampignIT:81 - Ad Status:Succesfully adcampign created
+2017-07-29 16:43:33 DEBUG AdCampignIT:131 - AdContent generated randomly:kstvvhaaed
+2017-07-29 16:43:33 DEBUG BasicClientConnectionManager:157 - Get connection for route {}->http://localhost:8080
+2017-07-29 16:43:33 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2017-07-29 16:43:33 DEBUG RequestAddCookies:132 - CookieSpec selected: ignoreCookies
+2017-07-29 16:43:33 DEBUG RequestAuthCache:78 - Auth cache not set in the context
+2017-07-29 16:43:33 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2017-07-29 16:43:33 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2017-07-29 16:43:33 DEBUG DefaultHttpClient:710 - Attempt 1 to execute request
+2017-07-29 16:43:33 DEBUG DefaultClientConnection:269 - Sending request: POST /ad HTTP/1.1
+2017-07-29 16:43:33 DEBUG wire:63 - >> "POST /ad HTTP/1.1[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Accept: */*[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Content-Type: application/json; charset=ISO-8859-1[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Content-Length: 61[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Host: localhost:8080[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "[\r][\n]"
+2017-07-29 16:43:33 DEBUG headers:273 - >> POST /ad HTTP/1.1
+2017-07-29 16:43:33 DEBUG headers:276 - >> Accept: */*
+2017-07-29 16:43:33 DEBUG headers:276 - >> Content-Type: application/json; charset=ISO-8859-1
+2017-07-29 16:43:33 DEBUG headers:276 - >> Content-Length: 61
+2017-07-29 16:43:33 DEBUG headers:276 - >> Host: localhost:8080
+2017-07-29 16:43:33 DEBUG headers:276 - >> Connection: Keep-Alive
+2017-07-29 16:43:33 DEBUG headers:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+2017-07-29 16:43:33 DEBUG headers:276 - >> Accept-Encoding: gzip,deflate
+2017-07-29 16:43:33 DEBUG wire:77 - >> "{"partner_id":"307","duration":"1","ad_content":"kstvvhaaed"}"
+2017-07-29 16:43:33 DEBUG SynchronousDispatcher:60 - PathInfo: /ad
+2017-07-29 16:43:33 DEBUG AdCampignService:62 - Ad Status:Succesfully adcampign created
+2017-07-29 16:43:33 DEBUG AdCampignService:63 - Total number of Ads exists:4
+2017-07-29 16:43:33 DEBUG wire:63 - << "HTTP/1.1 201 Created[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Date: Sat, 29 Jul 2017 20:43:33 GMT[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Content-Type: application/octet-stream[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Content-Length: 29[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Server: Jetty(9.3.0.M2)[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "[\r][\n]"
+2017-07-29 16:43:33 DEBUG DefaultClientConnection:254 - Receiving response: HTTP/1.1 201 Created
+2017-07-29 16:43:33 DEBUG headers:257 - << HTTP/1.1 201 Created
+2017-07-29 16:43:33 DEBUG headers:260 - << Date: Sat, 29 Jul 2017 20:43:33 GMT
+2017-07-29 16:43:33 DEBUG headers:260 - << Content-Type: application/octet-stream
+2017-07-29 16:43:33 DEBUG headers:260 - << Content-Length: 29
+2017-07-29 16:43:33 DEBUG headers:260 - << Server: Jetty(9.3.0.M2)
+2017-07-29 16:43:33 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+2017-07-29 16:43:33 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:533 - Parsing response as: application/octet-stream
+2017-07-29 16:43:33 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:536 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2017-07-29 16:43:33 DEBUG BasicClientConnectionManager:157 - Get connection for route {}->http://localhost:8080
+2017-07-29 16:43:33 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2017-07-29 16:43:33 DEBUG RequestAddCookies:132 - CookieSpec selected: ignoreCookies
+2017-07-29 16:43:33 DEBUG RequestAuthCache:78 - Auth cache not set in the context
+2017-07-29 16:43:33 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2017-07-29 16:43:33 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2017-07-29 16:43:33 DEBUG DefaultHttpClient:710 - Attempt 1 to execute request
+2017-07-29 16:43:33 DEBUG DefaultClientConnection:269 - Sending request: GET /ad/307 HTTP/1.1
+2017-07-29 16:43:33 DEBUG wire:63 - >> "GET /ad/307 HTTP/1.1[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Accept: */*[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Host: localhost:8080[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "[\r][\n]"
+2017-07-29 16:43:33 DEBUG headers:273 - >> GET /ad/307 HTTP/1.1
+2017-07-29 16:43:33 DEBUG headers:276 - >> Accept: */*
+2017-07-29 16:43:33 DEBUG headers:276 - >> Host: localhost:8080
+2017-07-29 16:43:33 DEBUG headers:276 - >> Connection: Keep-Alive
+2017-07-29 16:43:33 DEBUG headers:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+2017-07-29 16:43:33 DEBUG headers:276 - >> Accept-Encoding: gzip,deflate
+2017-07-29 16:43:33 DEBUG SynchronousDispatcher:60 - PathInfo: /ad/307
+2017-07-29 16:43:33 DEBUG wire:63 - << "HTTP/1.1 204 No Content[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Date: Sat, 29 Jul 2017 20:43:33 GMT[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Server: Jetty(9.3.0.M2)[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "[\r][\n]"
+2017-07-29 16:43:33 DEBUG DefaultClientConnection:254 - Receiving response: HTTP/1.1 204 No Content
+2017-07-29 16:43:33 DEBUG headers:257 - << HTTP/1.1 204 No Content
+2017-07-29 16:43:33 DEBUG headers:260 - << Date: Sat, 29 Jul 2017 20:43:33 GMT
+2017-07-29 16:43:33 DEBUG headers:260 - << Server: Jetty(9.3.0.M2)
+2017-07-29 16:43:33 DEBUG BasicClientConnectionManager:189 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@21a26e2c
+2017-07-29 16:43:33 DEBUG DefaultClientConnection:154 - Connection 0.0.0.0:59771<->127.0.0.1:8080 shut down
+2017-07-29 16:43:33 DEBUG BasicClientConnectionManager:219 - Connection can be kept alive for 9223372036854775807 MILLISECONDS
+2017-07-29 16:43:33 DEBUG BasicClientConnectionManager:157 - Get connection for route {}->http://localhost:8080
+2017-07-29 16:43:33 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2017-07-29 16:43:33 DEBUG RequestAddCookies:132 - CookieSpec selected: ignoreCookies
+2017-07-29 16:43:33 DEBUG RequestAuthCache:78 - Auth cache not set in the context
+2017-07-29 16:43:33 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2017-07-29 16:43:33 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2017-07-29 16:43:33 DEBUG DefaultHttpClient:710 - Attempt 1 to execute request
+2017-07-29 16:43:33 DEBUG DefaultClientConnection:269 - Sending request: GET /ad/all HTTP/1.1
+2017-07-29 16:43:33 DEBUG wire:63 - >> "GET /ad/all HTTP/1.1[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Accept: */*[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Host: localhost:8080[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "User-Agent: Apache-HttpClient/4.2.1 (java 1.5)[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - >> "[\r][\n]"
+2017-07-29 16:43:33 DEBUG headers:273 - >> GET /ad/all HTTP/1.1
+2017-07-29 16:43:33 DEBUG headers:276 - >> Accept: */*
+2017-07-29 16:43:33 DEBUG headers:276 - >> Host: localhost:8080
+2017-07-29 16:43:33 DEBUG headers:276 - >> Connection: Keep-Alive
+2017-07-29 16:43:33 DEBUG headers:276 - >> User-Agent: Apache-HttpClient/4.2.1 (java 1.5)
+2017-07-29 16:43:33 DEBUG headers:276 - >> Accept-Encoding: gzip,deflate
+2017-07-29 16:43:33 DEBUG SynchronousDispatcher:60 - PathInfo: /ad/all
+2017-07-29 16:43:33 DEBUG wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Date: Sat, 29 Jul 2017 20:43:33 GMT[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Content-Type: application/json[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Transfer-Encoding: chunked[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "Server: Jetty(9.3.0.M2)[\r][\n]"
+2017-07-29 16:43:33 DEBUG wire:63 - << "[\r][\n]"
+2017-07-29 16:43:33 DEBUG DefaultClientConnection:254 - Receiving response: HTTP/1.1 200 OK
+2017-07-29 16:43:33 DEBUG headers:257 - << HTTP/1.1 200 OK
+2017-07-29 16:43:33 DEBUG headers:260 - << Date: Sat, 29 Jul 2017 20:43:33 GMT
+2017-07-29 16:43:33 DEBUG headers:260 - << Content-Type: application/json
+2017-07-29 16:43:33 DEBUG headers:260 - << Transfer-Encoding: chunked
+2017-07-29 16:43:33 DEBUG headers:260 - << Server: Jetty(9.3.0.M2)
+2017-07-29 16:43:33 DEBUG DefaultHttpClient:540 - Connection can be kept alive indefinitely
+2017-07-29 16:43:33 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:533 - Parsing response as: application/json
+2017-07-29 16:43:33 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:536 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2017-07-29 16:43:56 DEBUG SynchronousDispatcher:60 - PathInfo: /ad
+2017-07-29 16:43:56 DEBUG AdCampignService:62 - Ad Status:Succesfully adcampign created
+2017-07-29 16:43:56 DEBUG AdCampignService:63 - Total number of Ads exists:5
+2017-07-29 16:44:26 DEBUG SynchronousDispatcher:60 - PathInfo: /ad/all
+2017-07-29 16:46:31 DEBUG SynchronousDispatcher:60 - PathInfo: /ad/all
+2017-07-29 16:46:38 DEBUG SynchronousDispatcher:60 - PathInfo: /ad
+2017-07-29 16:46:38 DEBUG AdCampignService:62 - Ad Status:Succesfully adcampign created
+2017-07-29 16:46:38 DEBUG AdCampignService:63 - Total number of Ads exists:1
+2017-07-29 16:46:43 DEBUG SynchronousDispatcher:60 - PathInfo: /ad/all
